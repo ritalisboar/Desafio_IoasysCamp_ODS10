@@ -94,6 +94,7 @@
 		7EB3A1E727F3D86100A10F18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7EB3A1F827F4D86B00A10F18 /* CadastroModel */,
 				7EB3A1EE27F4A5E600A10F18 /* UserModel */,
 				7EB3A1FC27F4DA1900A10F18 /* HomeModel */,
 			);
@@ -103,7 +104,6 @@
 		7EB3A1E827F3D86800A10F18 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7EB3A1F827F4D86B00A10F18 /* CadastroModel */,
 				7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */,
 				7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */,
 				7EB3A1F927F4D87600A10F18 /* CadatroViewController */,
