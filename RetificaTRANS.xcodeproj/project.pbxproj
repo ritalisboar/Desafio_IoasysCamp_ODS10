@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0345C648A9AAC592240596A7 /* Pods_RetificaTRANS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */; };
+		7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */; };
+		7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */; };
+		7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */; };
+		7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */; };
+		7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */; };
+		7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */; };
+		7EB3A1F327F4A8FF00A10F18 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */; };
+		7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */; };
+		7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */; };
+		7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1FE27F4DB7700A10F18 /* Networking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.debug.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB3A1D027F3D80A00A10F18 /* RetificaTRANS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetificaTRANS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB3A1DF27F3D80B00A10F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EB3A1E127F3D80B00A10F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
+		7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		7EB3A1FE27F4DB7700A10F18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetificaTRANS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.release.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB3A1CD27F3D80A00A10F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345C648A9AAC592240596A7 /* Pods_RetificaTRANS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47379F39E98AF63C55603BC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */,
+				F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EB3A1C727F3D80A00A10F18 = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1D227F3D80A00A10F18 /* RetificaTRANS */,
+				7EB3A1D127F3D80A00A10F18 /* Products */,
+				47379F39E98AF63C55603BC9 /* Pods */,
+				B48AB8443B1E7DBE9B6CBA28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB3A1D127F3D80A00A10F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1D027F3D80A00A10F18 /* RetificaTRANS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB3A1D227F3D80A00A10F18 /* RetificaTRANS */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1FD27F4DB6200A10F18 /* Networking */,
+				7EB3A1E727F3D86100A10F18 /* Model */,
+				7EB3A1E827F3D86800A10F18 /* View */,
+				7EB3A1E927F3D87200A10F18 /* Presenter */,
+				7EB3A1EA27F3D89000A10F18 /* Delegates */,
+				7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */,
+				7EB3A1E127F3D80B00A10F18 /* Info.plist */,
+			);
+			path = RetificaTRANS;
+			sourceTree = "<group>";
+		};
+		7EB3A1E727F3D86100A10F18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1EE27F4A5E600A10F18 /* UserModel */,
+				7EB3A1FC27F4DA1900A10F18 /* HomeModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EB3A1E827F3D86800A10F18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1F827F4D86B00A10F18 /* CadastroModel */,
+				7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */,
+				7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */,
+				7EB3A1F927F4D87600A10F18 /* CadatroViewController */,
+				7EB3A1FA27F4D88500A10F18 /* LoginViewController */,
+				7EB3A1FB27F4D9BB00A10F18 /* HomeViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EB3A1E927F3D87200A10F18 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */,
+				7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */,
+				7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EB3A1EA27F3D89000A10F18 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */,
+				7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7EB3A1EE27F4A5E600A10F18 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */,
+			);
+			path = SplashScrennViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1F827F4D86B00A10F18 /* CadastroModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CadastroModel;
+			sourceTree = "<group>";
+		};
+		7EB3A1F927F4D87600A10F18 /* CadatroViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CadatroViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1FA27F4D88500A10F18 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1FB27F4D9BB00A10F18 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1FC27F4DA1900A10F18 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		7EB3A1FD27F4DB6200A10F18 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1FE27F4DB7700A10F18 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B48AB8443B1E7DBE9B6CBA28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EB3A1CF27F3D80A00A10F18 /* RetificaTRANS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB3A1E427F3D80B00A10F18 /* Build configuration list for PBXNativeTarget "RetificaTRANS" */;
+			buildPhases = (
+				1169B3D1DA48C34C1FB7AB59 /* [CP] Check Pods Manifest.lock */,
+				7EB3A1CC27F3D80A00A10F18 /* Sources */,
+				7EB3A1CD27F3D80A00A10F18 /* Frameworks */,
+				7EB3A1CE27F3D80A00A10F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetificaTRANS;
+			productName = RetificaTRANS;
+			productReference = 7EB3A1D027F3D80A00A10F18 /* RetificaTRANS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EB3A1C827F3D80A00A10F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7EB3A1CF27F3D80A00A10F18 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7EB3A1CB27F3D80A00A10F18 /* Build configuration list for PBXProject "RetificaTRANS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EB3A1C727F3D80A00A10F18;
+			productRefGroup = 7EB3A1D127F3D80A00A10F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EB3A1CF27F3D80A00A10F18 /* RetificaTRANS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB3A1CE27F3D80A00A10F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */,
+				7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1169B3D1DA48C34C1FB7AB59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetificaTRANS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EB3A1CC27F3D80A00A10F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */,
+				7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */,
+				7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */,
+				7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */,
+				7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */,
+				7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */,
+				7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */,
+				7EB3A1F327F4A8FF00A10F18 /* SplashPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB3A1DF27F3D80B00A10F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EB3A1E227F3D80B00A10F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EB3A1E327F3D80B00A10F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB3A1E527F3D80B00A10F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetificaTRANS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAppApple.RetificaTRANS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EB3A1E627F3D80B00A10F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetificaTRANS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAppApple.RetificaTRANS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EB3A1CB27F3D80A00A10F18 /* Build configuration list for PBXProject "RetificaTRANS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB3A1E227F3D80B00A10F18 /* Debug */,
+				7EB3A1E327F3D80B00A10F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB3A1E427F3D80B00A10F18 /* Build configuration list for PBXNativeTarget "RetificaTRANS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB3A1E527F3D80B00A10F18 /* Debug */,
+				7EB3A1E627F3D80B00A10F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EB3A1C827F3D80A00A10F18 /* Project object */;
+}
