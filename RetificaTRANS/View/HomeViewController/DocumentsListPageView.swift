@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class DocumentsListView: UIView {
+final class DocumentsListPageView: UIView {
 
 // MARK: - background
     
@@ -31,7 +31,7 @@ final class DocumentsListView: UIView {
     private lazy var greetingUser: UILabel = {
         let greetingUser = UILabel()
         greetingUser.textColor = .black
-        greetingUser.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        greetingUser.font = UIFont.init(name: "Roboto-Medium", size: 18)
         greetingUser.text = "Olá, [userName]"
         greetingUser.translatesAutoresizingMaskIntoConstraints = false
         return greetingUser
@@ -47,7 +47,7 @@ final class DocumentsListView: UIView {
     private lazy var wellcomeMessage: UILabel = {
         let wellcomeMessage = UILabel()
         wellcomeMessage.textColor = .black
-        wellcomeMessage.font = UIFont.systemFont(ofSize: 35)
+        wellcomeMessage.font = UIFont.init(name: "Roboto-Black", size: 35)
         wellcomeMessage.text = "Bem vinde ao [appName]"
         wellcomeMessage.numberOfLines = 2
         wellcomeMessage.lineBreakMode = .byWordWrapping
@@ -83,7 +83,7 @@ final class DocumentsListView: UIView {
     private lazy var startJourney: UILabel = {
        let startJourney = UILabel()
         startJourney.textColor = .white
-        startJourney.font = UIFont.systemFont(ofSize: 20)
+        startJourney.font = UIFont.init(name: "Roboto-Black", size: 20)
         startJourney.text = "Iniciar minha jornada"
         startJourney.translatesAutoresizingMaskIntoConstraints = false
         return startJourney
@@ -118,7 +118,7 @@ final class DocumentsListView: UIView {
     private lazy var startDescription: UILabel = {
        let startDescription = UILabel()
         startDescription.textColor = .white
-        startDescription.font = UIFont.systemFont(ofSize: 13)
+        startDescription.font = UIFont.init(name: "Roboto-Medium", size: 13)
         startDescription.text = "Acompanhe o seu progresso na solicitação de sua retificação de documentos"
         startDescription.numberOfLines = 2
         startDescription.lineBreakMode = .byWordWrapping
