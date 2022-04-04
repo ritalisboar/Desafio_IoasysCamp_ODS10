@@ -36,7 +36,6 @@
 		7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752C27FA65150069988C /* Roboto-Thin.ttf */; };
 		7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752D27FA65150069988C /* Roboto-Black.ttf */; };
 		7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751E27FA65150069988C /* Roboto-Medium.ttf */; };
-		7EC8753F27FA673A0069988C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1E127F3D80B00A10F18 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -346,7 +345,6 @@
 				7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */,
 				7EC8753427FA65150069988C /* Roboto-Condensed.ttf in Resources */,
 				7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */,
-				7EC8753F27FA673A0069988C /* Info.plist in Resources */,
 				7EC8753027FA65150069988C /* Roboto-Regular.ttf in Resources */,
 				7EC8753A27FA65150069988C /* Roboto-BlackItalic.ttf in Resources */,
 				7EC8753827FA65150069988C /* Roboto-CondensedItalic.ttf in Resources */,

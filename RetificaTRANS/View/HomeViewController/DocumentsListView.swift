@@ -61,6 +61,22 @@ final class DocumentsListView: UIView {
         wellcomeMessage.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -56).isActive = true
     }
     
+    // MARK: - startJourneyContentView
+    
+    private lazy var startJourneyContentView: UIView = {
+       let startJourneyContentView = UIView()
+        startJourneyContentView.backgroundColor = .black
+       // startJourneyContentView.layer.cornerRadius = 16
+        startJourneyContentView.translatesAutoresizingMaskIntoConstraints = false
+        return startJourneyContentView
+    }()
+    
+    private func constraintsStartJourneyContentView() {
+        startJourneyContentView.topAnchor.constraint(equalTo: wellcomeMessage.bottomAnchor, constant: 29).isActive = true
+        startJourneyContentView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 28).isActive = true
+        startJourneyContentView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -28).isActive = true
+    }
+    
     // MARK: - inits
     
     init() {
@@ -69,6 +85,7 @@ final class DocumentsListView: UIView {
         constraintsHomeBackground()
         constraintsGreetingUser()
         constraintWellcomeMessage()
+        constraintsStartJourneyContentView()
     }
     
     required init?(coder: NSCoder) {
@@ -79,5 +96,6 @@ final class DocumentsListView: UIView {
         addSubview(homeBackground)
         addSubview(greetingUser)
         addSubview(wellcomeMessage)
+        addSubview(startJourneyContentView)
     }
 }
