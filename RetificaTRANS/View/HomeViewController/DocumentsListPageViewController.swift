@@ -1,5 +1,5 @@
 //
-//  DocumentsListViewController.swift
+//  DocumentsListPageViewController.swift
 //  RetificaTRANS
 //
 //  Created by Rita Lisboa on 03/04/22.
@@ -7,18 +7,18 @@
 
 import UIKit
 
-class DocumentsListViewController: UIViewController {
+class DocumentsListPageViewController: UIViewController {
 
-    private var customHomeView: DocumentsListView? = nil
-    
+    private var customHomeView: DocumentsListPageView? = nil
+
     override func viewDidLoad() {
         super.viewDidLoad()
         buildViewDocumentsList()
     }
     
     private func buildViewDocumentsList() {
-        view = DocumentsListView()
-        customHomeView = view as? DocumentsListView
+        view = DocumentsListPageView()
+        customHomeView = view as? DocumentsListPageView
     }
 
     /*
@@ -30,5 +30,5 @@ class DocumentsListViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
