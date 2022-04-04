@@ -36,6 +36,7 @@
 		7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752C27FA65150069988C /* Roboto-Thin.ttf */; };
 		7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752D27FA65150069988C /* Roboto-Black.ttf */; };
 		7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751E27FA65150069988C /* Roboto-Medium.ttf */; };
+		7EF9B27E27FA7C0D0071EE06 /* codeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9B27D27FA7C0D0071EE06 /* codeFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		7EC8752B27FA65150069988C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		7EC8752C27FA65150069988C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		7EC8752D27FA65150069988C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		7EF9B27D27FA7C0D0071EE06 /* codeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeFonts.swift; sourceTree = "<group>"; };
 		D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetificaTRANS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.release.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				7EC8751D27FA65150069988C /* roboto */,
+				7EF9B27D27FA7C0D0071EE06 /* codeFonts.swift */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */,
 				7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */,
 				7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */,
+				7EF9B27E27FA7C0D0071EE06 /* codeFonts.swift in Sources */,
 				7EC8751827FA4D1B0069988C /* DocumentsListView.swift in Sources */,
 				7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */,
 				7EC8751527FA4A360069988C /* DocumentsListViewController.swift in Sources */,
