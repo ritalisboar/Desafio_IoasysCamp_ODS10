@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0345C648A9AAC592240596A7 /* Pods_RetificaTRANS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */; };
+		7E3A8F6927FB28B600F68551 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6827FB28B600F68551 /* TabBarViewController.swift */; };
 		7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */; };
 		7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */; };
 		7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */; };
@@ -18,8 +19,8 @@
 		7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */; };
 		7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */; };
 		7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1FE27F4DB7700A10F18 /* Networking.swift */; };
-		7EC8751527FA4A360069988C /* DocumentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751427FA4A360069988C /* DocumentsListViewController.swift */; };
-		7EC8751827FA4D1B0069988C /* DocumentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751727FA4D1B0069988C /* DocumentsListView.swift */; };
+		7EC8751527FA4A360069988C /* DocumentsListPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751427FA4A360069988C /* DocumentsListPageViewController.swift */; };
+		7EC8751827FA4D1B0069988C /* DocumentsListPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751727FA4D1B0069988C /* DocumentsListPageView.swift */; };
 		7EC8752F27FA65150069988C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751F27FA65150069988C /* Roboto-Light.ttf */; };
 		7EC8753027FA65150069988C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752027FA65150069988C /* Roboto-Regular.ttf */; };
 		7EC8753127FA65150069988C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752127FA65150069988C /* Roboto-MediumItalic.ttf */; };
@@ -36,11 +37,11 @@
 		7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752C27FA65150069988C /* Roboto-Thin.ttf */; };
 		7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752D27FA65150069988C /* Roboto-Black.ttf */; };
 		7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751E27FA65150069988C /* Roboto-Medium.ttf */; };
-		7EC8753F27FA673A0069988C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1E127F3D80B00A10F18 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.debug.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3A8F6827FB28B600F68551 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		7EB3A1D027F3D80A00A10F18 /* RetificaTRANS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetificaTRANS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +54,8 @@
 		7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
 		7EB3A1FE27F4DB7700A10F18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		7EC8751427FA4A360069988C /* DocumentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListViewController.swift; sourceTree = "<group>"; };
-		7EC8751727FA4D1B0069988C /* DocumentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListView.swift; sourceTree = "<group>"; };
+		7EC8751427FA4A360069988C /* DocumentsListPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListPageViewController.swift; sourceTree = "<group>"; };
+		7EC8751727FA4D1B0069988C /* DocumentsListPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListPageView.swift; sourceTree = "<group>"; };
 		7EC8751E27FA65150069988C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		7EC8751F27FA65150069988C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		7EC8752027FA65150069988C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -94,6 +95,14 @@
 				F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E3A8F6727FB286600F68551 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A8F6827FB28B600F68551 /* TabBarViewController.swift */,
+			);
+			path = TabBarView;
 			sourceTree = "<group>";
 		};
 		7EB3A1C727F3D80A00A10F18 = {
@@ -144,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */,
+				7E3A8F6727FB286600F68551 /* TabBarView */,
 				7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */,
 				7EB3A1F927F4D87600A10F18 /* CadatroViewController */,
 				7EB3A1FA27F4D88500A10F18 /* LoginViewController */,
@@ -211,8 +221,8 @@
 		7EB3A1FB27F4D9BB00A10F18 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7EC8751427FA4A360069988C /* DocumentsListViewController.swift */,
-				7EC8751727FA4D1B0069988C /* DocumentsListView.swift */,
+				7EC8751427FA4A360069988C /* DocumentsListPageViewController.swift */,
+				7EC8751727FA4D1B0069988C /* DocumentsListPageView.swift */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -346,7 +356,6 @@
 				7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */,
 				7EC8753427FA65150069988C /* Roboto-Condensed.ttf in Resources */,
 				7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */,
-				7EC8753F27FA673A0069988C /* Info.plist in Resources */,
 				7EC8753027FA65150069988C /* Roboto-Regular.ttf in Resources */,
 				7EC8753A27FA65150069988C /* Roboto-BlackItalic.ttf in Resources */,
 				7EC8753827FA65150069988C /* Roboto-CondensedItalic.ttf in Resources */,
@@ -394,9 +403,10 @@
 				7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */,
 				7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */,
 				7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */,
-				7EC8751827FA4D1B0069988C /* DocumentsListView.swift in Sources */,
+				7E3A8F6927FB28B600F68551 /* TabBarViewController.swift in Sources */,
+				7EC8751827FA4D1B0069988C /* DocumentsListPageView.swift in Sources */,
 				7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */,
-				7EC8751527FA4A360069988C /* DocumentsListViewController.swift in Sources */,
+				7EC8751527FA4A360069988C /* DocumentsListPageViewController.swift in Sources */,
 				7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */,
 				7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */,
 				7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */,
