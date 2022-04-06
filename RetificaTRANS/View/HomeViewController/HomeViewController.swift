@@ -1,5 +1,5 @@
 //
-//  DocumentsListPageViewController.swift
+//  HomeViewController.swift
 //  RetificaTRANS
 //
 //  Created by Rita Lisboa on 03/04/22.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-class DocumentsListPageViewController: UIViewController {
+class HomeViewController: UIViewController {
 
-    private var customHomeView: DocumentsListPageView? = nil
+    private var customHomeView: NavigationView? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,8 @@ class DocumentsListPageViewController: UIViewController {
     }
     
     private func buildViewDocumentsList() {
-        view = DocumentsListPageView()
-        customHomeView = view as? DocumentsListPageView
+        view = NavigationView()
+        customHomeView = view as? NavigationView
     }
 
     /*
