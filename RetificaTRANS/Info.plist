@@ -20,6 +20,27 @@
 		<string>Roboto-Bold.ttf</string>
 		<string>Roboto-Thin.ttf</string>
 		<string>Roboto-Black.ttf</string>
+		<string>Ubuntu-Bold.ttf</string>
+		<string>Ubuntu-BoldItalic.ttf</string>
+		<string>Ubuntu-Italic.ttf</string>
+		<string>Ubuntu-Light.ttf</string>
+		<string>Ubuntu-LightItalic.ttf</string>
+		<string>Ubuntu-Medium.ttf</string>
+		<string>Ubuntu-MediumItalic.ttf</string>
+		<string>Ubuntu-Regular.ttf</string>
+		<string>Mulish-Black.ttf</string>
+		<string>Mulish-BlackItalic.ttf</string>
+		<string>Mulish-Bold.ttf</string>
+		<string>Mulish-ExtraBold.ttf</string>
+		<string>Mulish-BoldItalic.ttf</string>
+		<string>Mulish-ExtraBoldItalic.ttf</string>
+		<string>Mulish-ExtraLight.ttf</string>
+		<string>Mulish-ExtraLightItalic.ttf</string>
+		<string>Mulish-Medium.ttf</string>
+		<string>Mulish-MediumItalic.ttf</string>
+		<string>Mulish-Regular.ttf</string>
+		<string>Mulish-SemiBold.ttf</string>
+		<string>Mulish-SemiBoldItalic.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
