@@ -36,7 +36,6 @@
 		7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */; };
 		7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */; };
 		7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */; };
-		7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */; };
 		7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */; };
 		7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */; };
 		7EB3A1F327F4A8FF00A10F18 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */; };
@@ -61,6 +60,7 @@
 		7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752C27FA65150069988C /* Roboto-Thin.ttf */; };
 		7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752D27FA65150069988C /* Roboto-Black.ttf */; };
 		7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751E27FA65150069988C /* Roboto-Medium.ttf */; };
+		7EF41F2527FE001E0004954B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,7 +95,7 @@
 		7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RetificaTRANS/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		7EB3A1DF27F3D80B00A10F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB3A1E127F3D80B00A10F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
@@ -447,7 +447,6 @@
 				7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */,
 				7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */,
 				7E3A8F9C27FD0FA300F68551 /* Mulish-SemiBoldItalic.ttf in Resources */,
-				7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */,
 				7E3A8F9127FD0F7C00F68551 /* Mulish-BoldItalic.ttf in Resources */,
 				7EC8753427FA65150069988C /* Roboto-Condensed.ttf in Resources */,
 				7E3A8F9A27FD0F9D00F68551 /* Mulish-Regular.ttf in Resources */,
@@ -463,6 +462,7 @@
 				7EC8752F27FA65150069988C /* Roboto-Light.ttf in Resources */,
 				7E3A8F8C27FD0F4700F68551 /* Ubuntu-Medium.ttf in Resources */,
 				7E3A8F9427FD0F8600F68551 /* Mulish-ExtraLight.ttf in Resources */,
+				7EF41F2527FE001E0004954B /* Assets.xcassets in Resources */,
 				7E3A8F9827FD0F9700F68551 /* Mulish-Medium.ttf in Resources */,
 				7EC8753127FA65150069988C /* Roboto-MediumItalic.ttf in Resources */,
 				7E3A8F9227FD0F8000F68551 /* Mulish-ExtraBold.ttf in Resources */,
