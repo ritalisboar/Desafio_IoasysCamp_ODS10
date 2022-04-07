@@ -21,14 +21,24 @@ class HomeViewController: UIViewController {
         customHomeView = view as? NavigationView
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @objc
+    func buttonAction() {
+        let homeVC = UIViewController()
+        let homeViewController = UINavigationController(rootViewController: homeVC)
+//        present(homeViewController, animated: true)
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: HomeView())
+//        navigationController?.pushViewController(homeViewController, animated: true)
+//        self.navigationController?.pushViewController(homeViewController, animated: true)
+        print("chegou")
     }
-    */
+
+    // MARK: - NavigationViewController
+
+    @MainActor class UINavigationBar: UIView {
+        
+    }
+
+ 
     
 }
