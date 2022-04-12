@@ -1,13 +1,14 @@
 //
-//  NavigationView.swift
+//  TableCellComposition.swift
 //  RetificaTRANS
 //
-//  Created by Rita Lisboa on 03/04/22.
+//  Created by Rita Lisboa on 11/04/22.
 //
 
+import Foundation
 import UIKit
 
-final class NavigationView: UIView {
+class TableCellComposition: UIView {
 
 // MARK: - background
     
@@ -25,52 +26,6 @@ final class NavigationView: UIView {
         homeBackground.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         homeBackground.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
     }
-    
-    // MARK: - FAQ
-      
-    @objc
-    func activeButton() {
-        let test = HomeViewController()
-        test.buttonAction()
-    }
-    
-      private lazy var faq: UIButton = {
-          let faq = UIButton()
-          addSubview(faqSymbol)
-          faq.backgroundColor = UIColor(named: "DarkBlue")
-          faq.layer.cornerRadius = 30
-          faq.addTarget(self, action: #selector(activeButton), for: .touchUpInside)
-          faq.tag = 1
-          faq.clipsToBounds = true
-          faq.translatesAutoresizingMaskIntoConstraints = false
-          return faq
-      }()
-      
-      private func constraintsFaq() {
-          faq.topAnchor.constraint(equalTo: topAnchor, constant: 45).isActive = true
-          faq.bottomAnchor.constraint(equalTo: message2.topAnchor, constant: -35).isActive = true
-          faq.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
-          faq.widthAnchor.constraint(equalToConstant: 60).isActive = true
-          faq.heightAnchor.constraint(equalToConstant: 60).isActive = true
-      }
-    
-    private lazy var faqSymbol: UIImageView = {
-       let faqSymbol = UIImageView()
-        faqSymbol.image = UIImage(systemName: "questionmark.circle")
-        faqSymbol.tintColor = .white
-        faqSymbol.translatesAutoresizingMaskIntoConstraints = false
-        return faqSymbol
-    }()
-
-    private func constraintsFaqSymbol() {
-        faqSymbol.topAnchor.constraint(equalTo: faq.topAnchor, constant: 21.67).isActive = true
-        faqSymbol.leadingAnchor.constraint(equalTo: faq.leadingAnchor, constant: 21.67).isActive = true
-//        faqSymbol.trailingAnchor.constraint(equalTo: faq.trailingAnchor, constant: -21.67).isActive = true
-//        faqSymbol.bottomAnchor.constraint(equalTo: faq.bottomAnchor, constant: -21.67).isActive = true
-        faqSymbol.widthAnchor.constraint(equalToConstant: 16.67).isActive = true
-        faqSymbol.heightAnchor.constraint(equalToConstant: 16.67).isActive = true
-    }
-    
     
   // MARK: - greenting user
     
@@ -195,7 +150,7 @@ final class NavigationView: UIView {
     
     // MARK: - startJourneyContentView
     
-    private lazy var startJourneyContentView: UIImageView = {
+    public lazy var startJourneyContentView: UIImageView = {
        let startJourneyContentView = UIImageView()
         startJourneyContentView.image = UIImage(named: "backgroundJourney")
         startJourneyContentView.contentMode = .scaleAspectFill
@@ -204,7 +159,7 @@ final class NavigationView: UIView {
         return startJourneyContentView
     }()
     
-    private func constraintsStartJourneyContentView() {
+    public func constraintsStartJourneyContentView() {
         startJourneyContentView.topAnchor.constraint(equalTo: instructionPhrase3.bottomAnchor, constant: 20).isActive = true
         startJourneyContentView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
         startJourneyContentView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
@@ -289,15 +244,43 @@ final class NavigationView: UIView {
         progressBarLevel.bottomAnchor.constraint(equalTo: progressBarSpace.bottomAnchor).isActive = true
         progressBarLevel.trailingAnchor.constraint(equalTo: progressBarSpace.trailingAnchor, constant: -177).isActive = true
     }
+        
+    // MARK: listaDeDocumentos
+    
+    private lazy var list1: UILabel = {
+        let cor = attributesColor()
+        let list1 = UILabel()
+        list1.attributedText = NSAttributedString(string: "Lista de ", attributes: cor.colorDarkBlue)
+        list1.font = UIFont.init(name: "Mulish-Regular", size: 18)
+        list1.translatesAutoresizingMaskIntoConstraints = false
+        return list1
+    }()
+    
+    private func constrainList1() {
+            list1.topAnchor.constraint(equalTo: startJourneyContentView.bottomAnchor, constant: 30).isActive = true
+            list1.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+    }
+    
+    private lazy var list2: UILabel = {
+        let cor = attributesColor()
+        let list2 = UILabel()
+        list2.attributedText = NSAttributedString(string: "Documentos", attributes: cor.colorDarkBlue)
+        list2.font = UIFont.init(name: "Mulish-Black", size: 18)
+        list2.translatesAutoresizingMaskIntoConstraints = false
+        return list2
+    }()
+    
+    private func constrainList2() {
+        list2.topAnchor.constraint(equalTo: startJourneyContentView.bottomAnchor, constant: 30).isActive = true
+        list2.leadingAnchor.constraint(equalTo: list1.trailingAnchor).isActive = true
+    }
     
     // MARK: - inits
     
-    init() {
-        super.init(frame: .zero)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         addSubviews()
         constraintsHomeBackground()
-        constraintsFaq()
-        constraintsFaqSymbol()
         constraintsGreetingUser()
         constraintsBoldName()
         constrainMessage1()
@@ -311,6 +294,8 @@ final class NavigationView: UIView {
         constraintsStartDescription()
         constraintsProgressBarSace()
         constraintsProgressBarLevel()
+        constrainList1()
+        constrainList2()
     }
     
     required init?(coder: NSCoder) {
@@ -319,8 +304,6 @@ final class NavigationView: UIView {
     
     private func addSubviews() {
         addSubview(homeBackground)
-        addSubview(faq)
-        addSubview(faqSymbol)
         addSubview(greetingUser)
         addSubview(boldName)
         addSubview(message1)
@@ -334,5 +317,7 @@ final class NavigationView: UIView {
         addSubview(startDescription)
         addSubview(progressBarSpace)
         addSubview(progressBarLevel)
+        addSubview(list1)
+        addSubview(list2)
     }
 }
