@@ -8,42 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0345C648A9AAC592240596A7 /* Pods_RetificaTRANS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */; };
-		7E3A8F8527FD061F00F68551 /* codeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8427FD061F00F68551 /* codeFonts.swift */; };
-		7E3A8F8627FD0F3800F68551 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */; };
-		7E3A8F8727FD0F3B00F68551 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7127FCE96500F68551 /* Ubuntu-BoldItalic.ttf */; };
-		7E3A8F8827FD0F3D00F68551 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6D27FCE96400F68551 /* Ubuntu-Light.ttf */; };
-		7E3A8F8927FD0F4000F68551 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6F27FCE96500F68551 /* Ubuntu-Italic.ttf */; };
-		7E3A8F8A27FD0F4300F68551 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7027FCE96500F68551 /* Ubuntu-Regular.ttf */; };
-		7E3A8F8B27FD0F4500F68551 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6E27FCE96400F68551 /* Ubuntu-MediumItalic.ttf */; };
-		7E3A8F8C27FD0F4700F68551 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6B27FCE96400F68551 /* Ubuntu-Medium.ttf */; };
-		7E3A8F8D27FD0F4B00F68551 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7227FCE96500F68551 /* Ubuntu-LightItalic.ttf */; };
-		7E3A8F8E27FD0F7400F68551 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7527FCEA7F00F68551 /* Mulish-Black.ttf */; };
-		7E3A8F8F27FD0F7700F68551 /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7E27FCEA7F00F68551 /* Mulish-BlackItalic.ttf */; };
-		7E3A8F9027FD0F7A00F68551 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7A27FCEA7F00F68551 /* Mulish-Bold.ttf */; };
-		7E3A8F9127FD0F7C00F68551 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7727FCEA7F00F68551 /* Mulish-BoldItalic.ttf */; };
-		7E3A8F9227FD0F8000F68551 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7B27FCEA7F00F68551 /* Mulish-ExtraBold.ttf */; };
-		7E3A8F9327FD0F8300F68551 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7F27FCEA7F00F68551 /* Mulish-ExtraBoldItalic.ttf */; };
-		7E3A8F9427FD0F8600F68551 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8327FCEA7F00F68551 /* Mulish-ExtraLight.ttf */; };
-		7E3A8F9527FD0F8C00F68551 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7927FCEA7F00F68551 /* Mulish-ExtraLightItalic.ttf */; };
-		7E3A8F9627FD0F8F00F68551 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7D27FCEA7F00F68551 /* Mulish-Italic.ttf */; };
-		7E3A8F9727FD0F9300F68551 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8027FCEA7F00F68551 /* Mulish-LightItalic.ttf */; };
-		7E3A8F9827FD0F9700F68551 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7827FCEA7F00F68551 /* Mulish-Medium.ttf */; };
-		7E3A8F9927FD0F9A00F68551 /* Mulish-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8227FCEA7F00F68551 /* Mulish-MediumItalic.ttf */; };
-		7E3A8F9A27FD0F9D00F68551 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7627FCEA7F00F68551 /* Mulish-Regular.ttf */; };
-		7E3A8F9B27FD0F9F00F68551 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7C27FCEA7F00F68551 /* Mulish-SemiBold.ttf */; };
-		7E3A8F9C27FD0FA300F68551 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8127FCEA7F00F68551 /* Mulish-SemiBoldItalic.ttf */; };
-		7E9FEAF128011F970058BEAC /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF028011F970058BEAC /* FilterController.swift */; };
-		7E9FEAF328012F7D0058BEAC /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF228012F7D0058BEAC /* DocumentsParams.swift */; };
-		7E9FEAF528012FB10058BEAC /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF428012FB10058BEAC /* DocumentsPresenter.swift */; };
-		7E9FEAF7280130360058BEAC /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF6280130360058BEAC /* UserDocumentsParams.swift */; };
-		7E9FEAF9280130690058BEAC /* UserDocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF8280130690058BEAC /* UserDocumentsPresenter.swift */; };
-		7E9FEAFB280130E70058BEAC /* DocumentsDonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAFA280130E70058BEAC /* DocumentsDonePresenter.swift */; };
 		7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */; };
 		7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */; };
+		7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */; };
+		7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */; };
 		7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */; };
+		7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */; };
+		7EB3A1F327F4A8FF00A10F18 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */; };
+		7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */; };
+		7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */; };
 		7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1FE27F4DB7700A10F18 /* Networking.swift */; };
-		7EC8751527FA4A360069988C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751427FA4A360069988C /* HomeViewController.swift */; };
-		7EC8751827FA4D1B0069988C /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751727FA4D1B0069988C /* NavigationView.swift */; };
+		7EC8751527FA4A360069988C /* DocumentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751427FA4A360069988C /* DocumentsListViewController.swift */; };
+		7EC8751827FA4D1B0069988C /* DocumentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8751727FA4D1B0069988C /* DocumentsListView.swift */; };
 		7EC8752F27FA65150069988C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751F27FA65150069988C /* Roboto-Light.ttf */; };
 		7EC8753027FA65150069988C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752027FA65150069988C /* Roboto-Regular.ttf */; };
 		7EC8753127FA65150069988C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752127FA65150069988C /* Roboto-MediumItalic.ttf */; };
@@ -60,52 +36,27 @@
 		7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752C27FA65150069988C /* Roboto-Thin.ttf */; };
 		7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8752D27FA65150069988C /* Roboto-Black.ttf */; };
 		7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8751E27FA65150069988C /* Roboto-Medium.ttf */; };
-		7EF41F2527FE001E0004954B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */; };
-		7EF41F2727FFAEF80004954B /* HomeTableViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF41F2627FFAEF80004954B /* HomeTableViewTable.swift */; };
+		7EC8753F27FA673A0069988C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3A1E127F3D80B00A10F18 /* Info.plist */; };
+		A6A5680B27FA782000D2A8A4 /* ModalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */; };
+		A6A5680E27FA783600D2A8A4 /* ModalHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.debug.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.debug.xcconfig"; sourceTree = "<group>"; };
-		7E3A8F6B27FCE96400F68551 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
-		7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
-		7E3A8F6D27FCE96400F68551 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
-		7E3A8F6E27FCE96400F68551 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F6F27FCE96500F68551 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7027FCE96500F68551 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
-		7E3A8F7127FCE96500F68551 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7227FCE96500F68551 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7427FCEA7F00F68551 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Light.ttf"; sourceTree = "<group>"; };
-		7E3A8F7527FCEA7F00F68551 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
-		7E3A8F7627FCEA7F00F68551 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
-		7E3A8F7727FCEA7F00F68551 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7827FCEA7F00F68551 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
-		7E3A8F7927FCEA7F00F68551 /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7A27FCEA7F00F68551 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
-		7E3A8F7B27FCEA7F00F68551 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
-		7E3A8F7C27FCEA7F00F68551 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
-		7E3A8F7D27FCEA7F00F68551 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Italic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7E27FCEA7F00F68551 /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F7F27FCEA7F00F68551 /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F8027FCEA7F00F68551 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F8127FCEA7F00F68551 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F8227FCEA7F00F68551 /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-MediumItalic.ttf"; sourceTree = "<group>"; };
-		7E3A8F8327FCEA7F00F68551 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
-		7E3A8F8427FD061F00F68551 /* codeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeFonts.swift; sourceTree = "<group>"; };
-		7E9FEAF028011F970058BEAC /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
-		7E9FEAF228012F7D0058BEAC /* DocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsParams.swift; sourceTree = "<group>"; };
-		7E9FEAF428012FB10058BEAC /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
-		7E9FEAF6280130360058BEAC /* UserDocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsParams.swift; sourceTree = "<group>"; };
-		7E9FEAF8280130690058BEAC /* UserDocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsPresenter.swift; sourceTree = "<group>"; };
-		7E9FEAFA280130E70058BEAC /* DocumentsDonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDonePresenter.swift; sourceTree = "<group>"; };
 		7EB3A1D027F3D80A00A10F18 /* RetificaTRANS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetificaTRANS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB3A1D527F3D80A00A10F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RetificaTRANS/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7EB3A1DC27F3D80B00A10F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EB3A1DF27F3D80B00A10F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB3A1E127F3D80B00A10F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
+		7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
 		7EB3A1FE27F4DB7700A10F18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		7EC8751427FA4A360069988C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		7EC8751727FA4D1B0069988C /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		7EC8751427FA4A360069988C /* DocumentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListViewController.swift; sourceTree = "<group>"; };
+		7EC8751727FA4D1B0069988C /* DocumentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListView.swift; sourceTree = "<group>"; };
 		7EC8751E27FA65150069988C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		7EC8751F27FA65150069988C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		7EC8752027FA65150069988C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -122,7 +73,8 @@
 		7EC8752B27FA65150069988C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		7EC8752C27FA65150069988C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		7EC8752D27FA65150069988C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		7EF41F2627FFAEF80004954B /* HomeTableViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewTable.swift; sourceTree = "<group>"; };
+		A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeViewController.swift; sourceTree = "<group>"; };
+		A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeView.swift; sourceTree = "<group>"; };
 		D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetificaTRANS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.release.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,44 +98,6 @@
 				F42AB3BE0F7BD86F358A1618 /* Pods-RetificaTRANS.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7E3A8F6A27FCE94000F68551 /* ubuntu */ = {
-			isa = PBXGroup;
-			children = (
-				7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */,
-				7E3A8F7127FCE96500F68551 /* Ubuntu-BoldItalic.ttf */,
-				7E3A8F6F27FCE96500F68551 /* Ubuntu-Italic.ttf */,
-				7E3A8F6D27FCE96400F68551 /* Ubuntu-Light.ttf */,
-				7E3A8F7227FCE96500F68551 /* Ubuntu-LightItalic.ttf */,
-				7E3A8F6B27FCE96400F68551 /* Ubuntu-Medium.ttf */,
-				7E3A8F6E27FCE96400F68551 /* Ubuntu-MediumItalic.ttf */,
-				7E3A8F7027FCE96500F68551 /* Ubuntu-Regular.ttf */,
-			);
-			path = ubuntu;
-			sourceTree = "<group>";
-		};
-		7E3A8F7327FCEA2700F68551 /* mulish */ = {
-			isa = PBXGroup;
-			children = (
-				7E3A8F7527FCEA7F00F68551 /* Mulish-Black.ttf */,
-				7E3A8F7E27FCEA7F00F68551 /* Mulish-BlackItalic.ttf */,
-				7E3A8F7A27FCEA7F00F68551 /* Mulish-Bold.ttf */,
-				7E3A8F7727FCEA7F00F68551 /* Mulish-BoldItalic.ttf */,
-				7E3A8F7B27FCEA7F00F68551 /* Mulish-ExtraBold.ttf */,
-				7E3A8F7F27FCEA7F00F68551 /* Mulish-ExtraBoldItalic.ttf */,
-				7E3A8F8327FCEA7F00F68551 /* Mulish-ExtraLight.ttf */,
-				7E3A8F7927FCEA7F00F68551 /* Mulish-ExtraLightItalic.ttf */,
-				7E3A8F7D27FCEA7F00F68551 /* Mulish-Italic.ttf */,
-				7E3A8F7427FCEA7F00F68551 /* Mulish-Light.ttf */,
-				7E3A8F8027FCEA7F00F68551 /* Mulish-LightItalic.ttf */,
-				7E3A8F7827FCEA7F00F68551 /* Mulish-Medium.ttf */,
-				7E3A8F8227FCEA7F00F68551 /* Mulish-MediumItalic.ttf */,
-				7E3A8F7627FCEA7F00F68551 /* Mulish-Regular.ttf */,
-				7E3A8F7C27FCEA7F00F68551 /* Mulish-SemiBold.ttf */,
-				7E3A8F8127FCEA7F00F68551 /* Mulish-SemiBoldItalic.ttf */,
-			);
-			path = mulish;
 			sourceTree = "<group>";
 		};
 		7EB3A1C727F3D80A00A10F18 = {
@@ -223,6 +137,8 @@
 		7EB3A1E727F3D86100A10F18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7EB3A1F827F4D86B00A10F18 /* CadastroModel */,
+				7EB3A1EE27F4A5E600A10F18 /* UserModel */,
 				7EB3A1FC27F4DA1900A10F18 /* HomeModel */,
 			);
 			path = Model;
@@ -232,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				7EB3A1DE27F3D80B00A10F18 /* LaunchScreen.storyboard */,
+				7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */,
+				7EB3A1F927F4D87600A10F18 /* CadatroViewController */,
+				7EB3A1FA27F4D88500A10F18 /* LoginViewController */,
 				7EB3A1FB27F4D9BB00A10F18 /* HomeViewController */,
 			);
 			path = View;
@@ -240,9 +159,9 @@
 		7EB3A1E927F3D87200A10F18 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				7E9FEAF428012FB10058BEAC /* DocumentsPresenter.swift */,
-				7E9FEAF8280130690058BEAC /* UserDocumentsPresenter.swift */,
-				7E9FEAFA280130E70058BEAC /* DocumentsDonePresenter.swift */,
+				7EB3A1F227F4A8FF00A10F18 /* SplashPresenter.swift */,
+				7EB3A1F427F4A90B00A10F18 /* LoginPresenter.swift */,
+				7EB3A1F627F4A91500A10F18 /* UserPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -256,13 +175,50 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		7EB3A1EE27F4A5E600A10F18 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1EF27F4A5FF00A10F18 /* UserRequestModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		7EB3A1F127F4A60C00A10F18 /* SplashScrennViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EB3A1D727F3D80A00A10F18 /* SplashViewController.swift */,
+			);
+			path = SplashScrennViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1F827F4D86B00A10F18 /* CadastroModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CadastroModel;
+			sourceTree = "<group>";
+		};
+		7EB3A1F927F4D87600A10F18 /* CadatroViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CadatroViewController;
+			sourceTree = "<group>";
+		};
+		7EB3A1FA27F4D88500A10F18 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
 		7EB3A1FB27F4D9BB00A10F18 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7EC8751427FA4A360069988C /* HomeViewController.swift */,
-				7EC8751727FA4D1B0069988C /* NavigationView.swift */,
-				7EF41F2627FFAEF80004954B /* HomeTableViewTable.swift */,
-				7E9FEAF028011F970058BEAC /* FilterController.swift */,
+				7EC8751427FA4A360069988C /* DocumentsListViewController.swift */,
+				7EC8751727FA4D1B0069988C /* DocumentsListView.swift */,
+				A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */,
+				A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -270,8 +226,6 @@
 		7EB3A1FC27F4DA1900A10F18 /* HomeModel */ = {
 			isa = PBXGroup;
 			children = (
-				7E9FEAF228012F7D0058BEAC /* DocumentsParams.swift */,
-				7E9FEAF6280130360058BEAC /* UserDocumentsParams.swift */,
 			);
 			path = HomeModel;
 			sourceTree = "<group>";
@@ -294,10 +248,7 @@
 		7EC8751C27FA65150069988C /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				7E3A8F7327FCEA2700F68551 /* mulish */,
-				7E3A8F6A27FCE94000F68551 /* ubuntu */,
 				7EC8751D27FA65150069988C /* roboto */,
-				7E3A8F8427FD061F00F68551 /* codeFonts.swift */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -394,44 +345,22 @@
 			files = (
 				7EC8753527FA65150069988C /* Roboto-ThinItalic.ttf in Resources */,
 				7EC8753627FA65150069988C /* Roboto-BoldItalic.ttf in Resources */,
-				7E3A8F9027FD0F7A00F68551 /* Mulish-Bold.ttf in Resources */,
-				7E3A8F8B27FD0F4500F68551 /* Ubuntu-MediumItalic.ttf in Resources */,
 				7EC8753C27FA65150069988C /* Roboto-Thin.ttf in Resources */,
 				7EC8753727FA65150069988C /* Roboto-LightItalic.ttf in Resources */,
-				7E3A8F9527FD0F8C00F68551 /* Mulish-ExtraLightItalic.ttf in Resources */,
 				7EB3A1E027F3D80B00A10F18 /* LaunchScreen.storyboard in Resources */,
 				7EC8753D27FA65150069988C /* Roboto-Black.ttf in Resources */,
-				7E3A8F9C27FD0FA300F68551 /* Mulish-SemiBoldItalic.ttf in Resources */,
-				7E3A8F9127FD0F7C00F68551 /* Mulish-BoldItalic.ttf in Resources */,
+				7EB3A1DD27F3D80B00A10F18 /* Assets.xcassets in Resources */,
 				7EC8753427FA65150069988C /* Roboto-Condensed.ttf in Resources */,
-				7E3A8F9A27FD0F9D00F68551 /* Mulish-Regular.ttf in Resources */,
 				7EC8753E27FA67290069988C /* Roboto-Medium.ttf in Resources */,
+				7EC8753F27FA673A0069988C /* Info.plist in Resources */,
 				7EC8753027FA65150069988C /* Roboto-Regular.ttf in Resources */,
-				7E3A8F9627FD0F8F00F68551 /* Mulish-Italic.ttf in Resources */,
 				7EC8753A27FA65150069988C /* Roboto-BlackItalic.ttf in Resources */,
-				7E3A8F8927FD0F4000F68551 /* Ubuntu-Italic.ttf in Resources */,
 				7EC8753827FA65150069988C /* Roboto-CondensedItalic.ttf in Resources */,
-				7E3A8F9327FD0F8300F68551 /* Mulish-ExtraBoldItalic.ttf in Resources */,
-				7E3A8F8D27FD0F4B00F68551 /* Ubuntu-LightItalic.ttf in Resources */,
 				7EC8753227FA65150069988C /* Roboto-BoldCondensed.ttf in Resources */,
 				7EC8752F27FA65150069988C /* Roboto-Light.ttf in Resources */,
-				7E3A8F8C27FD0F4700F68551 /* Ubuntu-Medium.ttf in Resources */,
-				7E3A8F9427FD0F8600F68551 /* Mulish-ExtraLight.ttf in Resources */,
-				7EF41F2527FE001E0004954B /* Assets.xcassets in Resources */,
-				7E3A8F9827FD0F9700F68551 /* Mulish-Medium.ttf in Resources */,
 				7EC8753127FA65150069988C /* Roboto-MediumItalic.ttf in Resources */,
-				7E3A8F9227FD0F8000F68551 /* Mulish-ExtraBold.ttf in Resources */,
 				7EC8753927FA65150069988C /* Roboto-Italic.ttf in Resources */,
-				7E3A8F9B27FD0F9F00F68551 /* Mulish-SemiBold.ttf in Resources */,
-				7E3A8F9727FD0F9300F68551 /* Mulish-LightItalic.ttf in Resources */,
-				7E3A8F8827FD0F3D00F68551 /* Ubuntu-Light.ttf in Resources */,
-				7E3A8F8727FD0F3B00F68551 /* Ubuntu-BoldItalic.ttf in Resources */,
-				7E3A8F9927FD0F9A00F68551 /* Mulish-MediumItalic.ttf in Resources */,
-				7E3A8F8E27FD0F7400F68551 /* Mulish-Black.ttf in Resources */,
 				7EC8753327FA65150069988C /* Roboto-BoldCondensedItalic.ttf in Resources */,
-				7E3A8F8F27FD0F7700F68551 /* Mulish-BlackItalic.ttf in Resources */,
-				7E3A8F8A27FD0F4300F68551 /* Ubuntu-Regular.ttf in Resources */,
-				7E3A8F8627FD0F3800F68551 /* Ubuntu-Bold.ttf in Resources */,
 				7EC8753B27FA65150069988C /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,19 +397,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E9FEAF328012F7D0058BEAC /* DocumentsParams.swift in Sources */,
+				7EB3A1D827F3D80A00A10F18 /* SplashViewController.swift in Sources */,
+				7EB3A1F527F4A90B00A10F18 /* LoginPresenter.swift in Sources */,
 				7EB3A1FF27F4DB7700A10F18 /* Networking.swift in Sources */,
-				7EF41F2727FFAEF80004954B /* HomeTableViewTable.swift in Sources */,
-				7EC8751827FA4D1B0069988C /* NavigationView.swift in Sources */,
+				7EC8751827FA4D1B0069988C /* DocumentsListView.swift in Sources */,
 				7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */,
-				7E9FEAFB280130E70058BEAC /* DocumentsDonePresenter.swift in Sources */,
-				7EC8751527FA4A360069988C /* HomeViewController.swift in Sources */,
-				7E9FEAF7280130360058BEAC /* UserDocumentsParams.swift in Sources */,
-				7E3A8F8527FD061F00F68551 /* codeFonts.swift in Sources */,
-				7E9FEAF9280130690058BEAC /* UserDocumentsPresenter.swift in Sources */,
-				7E9FEAF528012FB10058BEAC /* DocumentsPresenter.swift in Sources */,
+				7EC8751527FA4A360069988C /* DocumentsListViewController.swift in Sources */,
+				A6A5680B27FA782000D2A8A4 /* ModalHomeViewController.swift in Sources */,
 				7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */,
-				7E9FEAF128011F970058BEAC /* FilterController.swift in Sources */,
+				7EB3A1F727F4A91500A10F18 /* UserPresenter.swift in Sources */,
+				7EB3A1F027F4A5FF00A10F18 /* UserRequestModel.swift in Sources */,
+				7EB3A1F327F4A8FF00A10F18 /* SplashPresenter.swift in Sources */,
+				A6A5680E27FA783600D2A8A4 /* ModalHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
