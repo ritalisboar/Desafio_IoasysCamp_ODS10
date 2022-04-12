@@ -9,36 +9,59 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    private var customHomeView: NavigationView? = nil
-
+    private lazy var homeTableView: UITableView = {
+        let homeTableView = UITableView()
+        homeTableView.register(HomeTableView.self,
+                          forCellReuseIdentifier: HomeTableView.identifier)
+        return homeTableView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        buildViewDocumentsList()
-    }
-    
-    private func buildViewDocumentsList() {
-        view = NavigationView()
-        customHomeView = view as? NavigationView
+        navigationItem()
+        homeTableView.dataSource = self
+        homeTableView.delegate = self
+        view.addSubview(homeTableView)
     }
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        homeTableView.frame = view.bounds
+    }
+
+    // MARK: - navigation bar
+    
+    private func navigationItem() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            image: UIImage(named: "FAQImage"),
+            style: .done,
+            target: self,
+            action: nil)
+        navigationController?.navigationBar.tintColor = UIColor(named: "DarkBlue")
+        navigationController?.navigationBar.scrollEdgeAppearance = .none
+        navigationController?.navigationBar.isTranslucent = true
+    }
     
     @objc
-    func buttonAction() {
-        let homeVC = UIViewController()
-        let homeViewController = UINavigationController(rootViewController: homeVC)
-//        present(homeViewController, animated: true)
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: HomeView())
-//        navigationController?.pushViewController(homeViewController, animated: true)
-//        self.navigationController?.pushViewController(homeViewController, animated: true)
-        print("chegou")
+    func buttonFAQ() {
+        let home = HomeCollectionViewController()
+        navigationController?.pushViewController(home, animated: true)
     }
+}
 
-    // MARK: - NavigationViewController
+// MARK: - extensions
 
-    @MainActor class UINavigationBar: UIView {
-        
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 27
     }
-
- 
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = homeTableView.dequeueReusableCell(withIdentifier: HomeTableView.identifier, for: indexPath)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 132
+    }
 }
