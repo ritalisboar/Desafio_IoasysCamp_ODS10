@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0345C648A9AAC592240596A7 /* Pods_RetificaTRANS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2018089EAF423D960FF944B /* Pods_RetificaTRANS.framework */; };
+		7E27DA6D28071541007215BB /* arquivotest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27DA6C28071541007215BB /* arquivotest.swift */; };
 		7E3A8F8527FD061F00F68551 /* codeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A8F8427FD061F00F68551 /* codeFonts.swift */; };
 		7E3A8F8627FD0F3800F68551 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */; };
 		7E3A8F8727FD0F3B00F68551 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A8F7127FCE96500F68551 /* Ubuntu-BoldItalic.ttf */; };
@@ -66,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		414468A64D45FAC823EBFEF9 /* Pods-RetificaTRANS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetificaTRANS.debug.xcconfig"; path = "Target Support Files/Pods-RetificaTRANS/Pods-RetificaTRANS.debug.xcconfig"; sourceTree = "<group>"; };
+		7E27DA6C28071541007215BB /* arquivotest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arquivotest.swift; sourceTree = "<group>"; };
 		7E3A8F6B27FCE96400F68551 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		7E3A8F6D27FCE96400F68551 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				7E9FEAF428012FB10058BEAC /* DocumentsPresenter.swift */,
 				7E9FEAF8280130690058BEAC /* UserDocumentsPresenter.swift */,
 				7E9FEAFA280130E70058BEAC /* DocumentsDonePresenter.swift */,
+				7E27DA6C28071541007215BB /* arquivotest.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				7E3A8F8527FD061F00F68551 /* codeFonts.swift in Sources */,
 				7E9FEAF9280130690058BEAC /* UserDocumentsPresenter.swift in Sources */,
 				7E9FEAF528012FB10058BEAC /* DocumentsPresenter.swift in Sources */,
+				7E27DA6D28071541007215BB /* arquivotest.swift in Sources */,
 				7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */,
 				7E9FEAF128011F970058BEAC /* FilterController.swift in Sources */,
 			);
