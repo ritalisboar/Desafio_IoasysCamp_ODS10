@@ -38,6 +38,8 @@
 		7E9FEAF328012F7D0058BEAC /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF228012F7D0058BEAC /* DocumentsParams.swift */; };
 		7E9FEAF528012FB10058BEAC /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF428012FB10058BEAC /* DocumentsPresenter.swift */; };
 		7E9FEAF7280130360058BEAC /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF6280130360058BEAC /* UserDocumentsParams.swift */; };
+		A6A5680B27FA782000D2A8A4 /* ModalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */; };
+		A6A5680E27FA783600D2A8A4 /* ModalHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */; };
 		7E9FEAF9280130690058BEAC /* UserDocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAF8280130690058BEAC /* UserDocumentsPresenter.swift */; };
 		7E9FEAFB280130E70058BEAC /* DocumentsDonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FEAFA280130E70058BEAC /* DocumentsDonePresenter.swift */; };
 		7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3A1D327F3D80A00A10F18 /* AppDelegate.swift */; };
@@ -71,6 +73,8 @@
 		7E3A8F6C27FCE96400F68551 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		7E3A8F6D27FCE96400F68551 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		7E3A8F6E27FCE96400F68551 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeViewController.swift; sourceTree = "<group>"; };
+		A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeView.swift; sourceTree = "<group>"; };
 		7E3A8F6F27FCE96500F68551 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
 		7E3A8F7027FCE96500F68551 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		7E3A8F7127FCE96500F68551 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -265,6 +269,8 @@
 				7EC8751727FA4D1B0069988C /* HeaderView.swift */,
 				7E6CA4832801E91F0001532A /* HomeTableView.swift */,
 				7E3AC3DE280487E300B417B0 /* TableCellComposition.swift */,
+				A6A5680A27FA782000D2A8A4 /* ModalHomeViewController.swift */,
+				A6A5680D27FA783600D2A8A4 /* ModalHomeView.swift */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -470,6 +476,7 @@
 				7EB3A1D427F3D80A00A10F18 /* AppDelegate.swift in Sources */,
 				7E9FEAFB280130E70058BEAC /* DocumentsDonePresenter.swift in Sources */,
 				7EC8751527FA4A360069988C /* HomeViewController.swift in Sources */,
+				A6A5680B27FA782000D2A8A4 /* ModalHomeViewController.swift in Sources */,
 				7E6CA4842801E91F0001532A /* HomeTableView.swift in Sources */,
 				7E9FEAF7280130360058BEAC /* UserDocumentsParams.swift in Sources */,
 				7E3A8F8527FD061F00F68551 /* codeFonts.swift in Sources */,
@@ -477,6 +484,7 @@
 				7E6CA4AA280208490001532A /* HomeCollectionViewController.swift in Sources */,
 				7E9FEAF528012FB10058BEAC /* DocumentsPresenter.swift in Sources */,
 				7EB3A1D627F3D80A00A10F18 /* SceneDelegate.swift in Sources */,
+				A6A5680E27FA783600D2A8A4 /* ModalHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
