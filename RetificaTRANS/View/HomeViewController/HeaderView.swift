@@ -228,7 +228,7 @@ class HeaderView: UICollectionReusableView {
     
     private lazy var progressBarLevel: UIView = {
         let progressBarLevel = UIView()
-        progressBarLevel.backgroundColor = .init(named: "LightPink")
+        progressBarLevel.backgroundColor = UIColor(named: "LightPink")
         progressBarLevel.layer.borderColor = CGColor(red: 1, green: 1, blue: 1, alpha: 1)
         progressBarLevel.layer.borderWidth = 1
         progressBarLevel.layer.cornerRadius = 8
