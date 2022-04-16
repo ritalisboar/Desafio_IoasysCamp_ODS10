@@ -7,47 +7,74 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UIScrollViewDelegate {
 
+//    var homeCollectionViewController = [HomeCollectionViewController]()
+    var headerView = HeaderView()
+    
     private lazy var homeTableView: UITableView = {
         let homeTableView = UITableView()
         homeTableView.register(HomeTableView.self,
                           forCellReuseIdentifier: HomeTableView.identifier)
+        homeTableView.translatesAutoresizingMaskIntoConstraints = false
         return homeTableView
     }()
+    
+    func constraintsHomeTable() {
+        view.addSubview(homeTableView)
+//        homeTableView.topAnchor.constraint(equalTo: headerView.bottomAnchor).isActive = true
+    }
+    
+//    override func loadView() {
+//        super.loadView()
+//        constraintsHomeTable()
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem()
-        homeTableView.dataSource = self
-        homeTableView.delegate = self
-        view.addSubview(homeTableView)
+        view.addSubview(headerView)
+        headerView.frame = view.bounds
+//        view.addSubview(homeTableView)
+        constraintsHomeTable()
+//        homeTableView.dataSource = self
+//        homeTableView.delegate = self
+//        homeTableView.frame = view.bounds
     }
 
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        homeTableView.frame = view.bounds
-    }
+//    override func viewDidLayoutSubviews() {
+//        super.viewDidLayoutSubviews()
+//        headerView.frame = view.frame
+//        homeTableView.frame = view.bounds
+//        scrollView.addSubview(homeTableView)
+//    }
 
     // MARK: - navigation bar
+    
+
+    
+    @objc
+    func buttonFAQ() {
+        let ilhaGratis = IlhaGratuidadeCollectionViewController()
+        let ilhaGratisVC = UINavigationController(rootViewController: ilhaGratis)
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: )
+//        self.navigationController?.navigationBar
+//        navigationController?.pushViewController(ilhaGratis, animated: true)
+//        self.navigationController?.pushViewController(ilhaGratisVC, animated: true)
+        print("oi")
+    }
     
     private func navigationItem() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             image: UIImage(named: "FAQImage"),
             style: .done,
-            target: self,
+            target: #selector(buttonFAQ),
             action: nil)
-        navigationController?.navigationBar.tintColor = UIColor(named: "DarkBlue")
         navigationController?.navigationBar.scrollEdgeAppearance = .none
         navigationController?.navigationBar.isTranslucent = true
     }
-    
-    @objc
-    func buttonFAQ() {
-        let home = HomeCollectionViewController()
-        navigationController?.pushViewController(home, animated: true)
-    }
 }
+
 
 // MARK: - extensions
 

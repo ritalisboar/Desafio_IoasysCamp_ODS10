@@ -9,21 +9,50 @@ import UIKit
 
 class HeaderView: UICollectionReusableView {
 
+    private lazy var setHeaderView: UIView = {
+        let setHeaderView = UIView()
+        setHeaderView.backgroundColor = .blue
+        addSubview(homeBackground)
+        addSubview(greetingUser)
+        addSubview(boldName)
+        addSubview(message1)
+        addSubview(message2)
+        addSubview(message3)
+        addSubview(instructionPhrase)
+        addSubview(instructionPhrase2)
+        addSubview(instructionPhrase3)
+        addSubview(startJourneyContentView)
+        addSubview(startJourney)
+        addSubview(startDescription)
+        addSubview(progressBarSpace)
+        addSubview(progressBarLevel)
+        addSubview(list1)
+        addSubview(list2)
+        setHeaderView.translatesAutoresizingMaskIntoConstraints = false
+        return setHeaderView
+    }()
+    
+    private func constraintsSetHeaderView() {
+        setHeaderView.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        setHeaderView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        setHeaderView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        setHeaderView.heightAnchor.constraint(equalTo: heightAnchor, constant: -407).isActive = true
+    }
 // MARK: - background
     
     private lazy var homeBackground: UIImageView = {
        let homeBackground = UIImageView()
-        homeBackground.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        homeBackground.backgroundColor = .red
         homeBackground.contentMode = .scaleAspectFill
         homeBackground.translatesAutoresizingMaskIntoConstraints = false
         return homeBackground
     }()
-    
+
     private func constraintsHomeBackground() {
         homeBackground.topAnchor.constraint(equalTo: topAnchor).isActive = true
         homeBackground.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        homeBackground.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         homeBackground.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        homeBackground.heightAnchor.constraint(equalTo: heightAnchor, constant: -407).isActive = true
     }
     
   // MARK: - greenting user
@@ -45,7 +74,7 @@ class HeaderView: UICollectionReusableView {
     private lazy var boldName: UILabel = {
         let cor = attributesColor()
         let boldName = UILabel()
-        boldName.attributedText = NSAttributedString(string: "[userName] 👋", attributes: cor.colorDarkBlue)
+        boldName.attributedText = NSAttributedString(string: "Clarice Lispector 👋", attributes: cor.colorDarkBlue)
         boldName.font = UIFont.init(name: "Mulish-Black", size: 20)
         boldName.translatesAutoresizingMaskIntoConstraints = false
         return boldName
@@ -213,7 +242,7 @@ class HeaderView: UICollectionReusableView {
         let progressBarSpace = UIView()
         addSubview(progressBarLevel)
         progressBarSpace.backgroundColor = .white
-        progressBarSpace.layer.cornerRadius = 8
+        progressBarSpace.layer.cornerRadius = 4
         progressBarSpace.frame = CGRect(x: 0, y: 0, width: 299, height: 6)
         progressBarSpace.translatesAutoresizingMaskIntoConstraints = false
         return progressBarSpace
@@ -231,7 +260,7 @@ class HeaderView: UICollectionReusableView {
         progressBarLevel.backgroundColor = .init(named: "LightPink")
         progressBarLevel.layer.borderColor = CGColor(red: 1, green: 1, blue: 1, alpha: 1)
         progressBarLevel.layer.borderWidth = 1
-        progressBarLevel.layer.cornerRadius = 8
+        progressBarLevel.layer.cornerRadius = 4
         progressBarLevel.frame = CGRect(x: 0, y: 0, width: 122, height: 6)
         progressBarLevel.translatesAutoresizingMaskIntoConstraints = false
         return progressBarLevel
@@ -274,11 +303,17 @@ class HeaderView: UICollectionReusableView {
         list2.leadingAnchor.constraint(equalTo: list1.trailingAnchor).isActive = true
     }
     
+//    private lazy var homeTableView = HomeTableView()
+//    private func constraintsHomeTableView() {
+//        homeTableView.topAnchor.constraint(equalTo: topAnchor, constant: 507).isActive = true
+//    }
+    
     // MARK: - inits
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubviews()
+        constraintsSetHeaderView()
         constraintsHomeBackground()
         constraintsGreetingUser()
         constraintsBoldName()
@@ -295,6 +330,7 @@ class HeaderView: UICollectionReusableView {
         constraintsProgressBarLevel()
         constrainList1()
         constrainList2()
+//        constraintsHomeTableView()
     }
     
     required init?(coder: NSCoder) {
@@ -302,6 +338,7 @@ class HeaderView: UICollectionReusableView {
     }
     
     private func addSubviews() {
+        addSubview(setHeaderView)
         addSubview(homeBackground)
         addSubview(greetingUser)
         addSubview(boldName)
@@ -318,5 +355,6 @@ class HeaderView: UICollectionReusableView {
         addSubview(progressBarLevel)
         addSubview(list1)
         addSubview(list2)
+//        addSubview(homeTableView)
     }
 }

@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        window?.rootViewController = HomeCollectionViewController(collectionViewLayout:  UICollectionViewFlowLayout())
         window = UIWindow(windowScene: windowScene)
         window?.makeKeyAndVisible()
-        let nav = UINavigationController(rootViewController: HomeCollectionViewController())
+        let nav = UINavigationController(rootViewController: IlhasCollectionViewController())
 
         window?.rootViewController = nav
 
